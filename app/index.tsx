@@ -18,12 +18,10 @@ export default function Index() {
   }
 
   function reset() {
-    if (counter > 0) {
       setCounter(0);
     }
-  }
 
-
+    
   return (
     <View
       style={{
